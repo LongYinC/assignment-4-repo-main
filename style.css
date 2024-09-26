@@ -43,4 +43,164 @@ header, footer {
 }
 
 /* WRITE YOUR CODE BELOW HERE */
+/*
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 400 to 700
 
+.edu-au-vic-wa-nt-guides-<uniquifier> {
+  font-family: "Edu AU VIC WA NT Guides", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.inter-<uniquifier> {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.roboto-slab-<uniquifier> {
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto+Slab:wght@100..900&display=swap');
+
+body{
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 0.625rem;
+}
+
+p{
+  font-size: 1rem;
+}
+
+h1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Edu AU VIC WA NT Guides", cursive;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 2.5rem;
+}
+
+h2{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 1.5rem;
+}
+
+h2 + p{
+  text-indent: 1.25rem;
+}
+
+a {
+  outline-color: transparent;
+}
+
+a:link {
+  color: #6900ff;
+}
+
+a:visited {
+  color: red;
+}
+
+a:focus {
+  text-decoration: none;
+  background: blue;
+}
+
+a:hover {
+  text-decoration: none;
+  background: yellow;
+}
+
+a:active {
+  background: #6900ff;
+  color: #cdfeaa;
+}
+
+a[href^="http"]::after {
+  content: "";
+  display: inline-block;
+  width: 0.8em;
+  height: 0.8em;
+  margin-left: 0.25em;
+
+  background-size: 100%;
+  background-image: url("external-link-52.png");
+}
+
+nav{
+  display: flex;
+  gap: 0.625%;
+  font-size: 1.5rem;
+}
+
+nav a[href^="#"]{
+  flex: 1;
+  text-decoration: none;
+  outline-color: transparent;
+  text-align: center;
+  line-height: 3;
+  color: black;
+  padding: 10px 10px;
+}
+nav a[href^="#"]:link,
+nav a[href^="#"]:visited,
+nav a[href^="#"]:focus{
+  background: palegoldenrod; 
+  color: black;
+}
+
+nav a[href^="#"]:hover{
+  background: orange;
+}
+
+nav a[href^="#"]:active{
+  background: blue;
+}
+
+nav ul{
+  list-style-type: none;
+}
+
+aside{
+  font-size: 1rem;
+}
+
+aside ul{
+  list-style-type: square;
+}
+
+section ul{
+  list-style-type: square;
+  font-size: 1rem;
+}
+
+ol{
+  list-style-type: lower-alpha;
+  font-size: 1rem;
+}
+ 
