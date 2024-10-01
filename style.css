@@ -156,16 +156,23 @@ nav{
   display: flex;
   gap: 0.625%;
   font-size: 1.5rem;
+  margin-left: -5rem;
+  text-align: center;
 }
 
 nav a[href^="#"]{
-  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  height: 70px;
+  box-sizing: border-box;
   text-decoration: none;
   outline-color: transparent;
-  text-align: center;
   line-height: 3;
   color: black;
-  padding: 10px 10px;
+  padding: 10px 50px;
+  border: 2px solid black;
 }
 nav a[href^="#"]:link,
 nav a[href^="#"]:visited,
@@ -202,5 +209,14 @@ section ul{
 ol{
   list-style-type: lower-alpha;
   font-size: 1rem;
+}
+
+aside ul{
+  display: flex;
+}
+
+aside h2, aside ul{
+  display: flex;
+  flex-direction: column;
 }
  
