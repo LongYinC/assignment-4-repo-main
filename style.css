@@ -213,6 +213,7 @@ ol{
 
 aside ul{
   display: flex;
+  font-size: 1.1rem;
 }
 
 aside h2, aside ul{
